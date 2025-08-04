@@ -1,4 +1,4 @@
-# Zentra
+# Alvora
 
 A decentralized synthetic asset protocol that gives users in emerging markets borderless access to global financial assets — tracked, minted, and traded entirely on-chain.
 
@@ -6,7 +6,7 @@ A decentralized synthetic asset protocol that gives users in emerging markets bo
 
 ## Overview
 
-Zentra is a modular system of Clarity smart contracts enabling anyone to mint, hold, and trade synthetic versions of real-world assets such as stocks, commodities, and indexes — without needing access to the underlying asset or traditional finance.
+Alvora is a modular system of Clarity smart contracts enabling anyone to mint, hold, and trade synthetic versions of real-world assets such as stocks, commodities, and indexes — without needing access to the underlying asset or traditional finance.
 
 It consists of the following core contracts:
 
@@ -59,7 +59,7 @@ It consists of the following core contracts:
 - Time-weighted average price (TWAP) calculations
 
 ### Stability Pool Contract
-- Users stake native governance tokens (e.g. $ZTRA)
+- Users stake native governance tokens (e.g. $AVRA)
 - Covers bad debt from undercollateralized positions
 - Rewards stakers with fees and liquidation bonuses
 
@@ -95,7 +95,7 @@ It consists of the following core contracts:
 1. Install [Clarinet CLI](https://docs.hiro.so/clarinet/getting-started)
 2. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/zentra.git
+   git clone https://github.com/yourusername/alvora.git
    ```
 3. Run tests:
     ```bash
@@ -110,7 +110,7 @@ It consists of the following core contracts:
 
 ## Usage
 
-Each contract is modular but designed to integrate tightly with others in the Zentra protocol. For individual contract functions, see the /contracts directory and corresponding .clar files.
+Each contract is modular but designed to integrate tightly with others in the Alvora protocol. For individual contract functions, see the /contracts directory and corresponding .clar files.
 
 Use the Oracle, Collateral Vault, and Minting Engine in tandem to simulate end-to-end synthetic asset issuance and trading.
 
